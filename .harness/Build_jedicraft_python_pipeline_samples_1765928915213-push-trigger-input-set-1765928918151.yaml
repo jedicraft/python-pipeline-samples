@@ -1,0 +1,14 @@
+inputSet:
+  name: Build_jedicraft_python_pipeline_samples_1765928915213-push-trigger-input-set
+  identifier: Build_jedicraft_python_pipeline_samples_1765928915213pushtriggerinputset
+  orgIdentifier: default
+  projectIdentifier: pythondemo
+  pipeline:
+    identifier: Build_jedicraft_python_pipeline_samples_1765928915213
+    properties:
+      ci:
+        codebase:
+          build:
+            type: branch
+            spec:
+              branch: <+trigger.branch>
